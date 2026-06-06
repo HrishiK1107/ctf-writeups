@@ -1,26 +1,59 @@
-# OverTheWire Writeups
+# CTF Writeups
 
-This section contains writeups for challenges from the OverTheWire wargames platform.
+A curated collection of Capture The Flag (CTF) challenge writeups documenting my journey through offensive security, Linux internals, networking, cryptography, privilege escalation, and security engineering concepts.
 
-OverTheWire provides hands-on exercises focused on Linux fundamentals, networking, cryptography, file systems, permissions, and security concepts. These challenges are designed to build practical problem-solving skills that transfer directly into real-world cybersecurity work.
+The goal of this repository is not to provide copy-paste solutions, but to document the reasoning process behind solving security challenges and connect those concepts to real-world cybersecurity practices.
 
-## Wargames
+## About Me
 
-| Wargame | Status      |
-| ------- | ----------- |
-| Bandit  | In Progress |
+I'm a cybersecurity student with interests in:
 
-## Why Bandit?
+* Security Operations (SOC)
+* Vulnerability Assessment and Penetration Testing (VAPT)
+* Cloud Security
+* Threat Detection Engineering
+* Threat Intelligence
 
-Bandit serves as a foundation for many cybersecurity disciplines by introducing:
+Alongside CTFs, I build security-focused projects including:
 
-* Linux command-line proficiency
-* File discovery and manipulation
-* Permissions and ownership
-* Networking fundamentals
-* Service enumeration
-* Data encoding and decoding
-* SSH authentication
-* Privilege escalation concepts
+* Kernox – eBPF-based Endpoint Detection and Response (EDR)
+* Ingressa – Cloud Security Posture Management (CSPM)
+* Aletheia – Graph-based Threat Intelligence Platform
 
-These skills frequently appear in SOC investigations, penetration testing engagements, cloud environments, and security engineering workflows.
+## Platforms
+
+| Platform     | Status      |
+| ------------ | ----------- |
+| OverTheWire  | In Progress |
+| picoCTF      | Planned     |
+| TryHackMe    | Planned     |
+| Hack The Box | Planned     |
+
+## Repository Structure
+
+```text
+ctf-writeups/
+├── overthewire/
+│   └── bandit/
+│       ├── level-00-01.md
+│       ├── level-01-02.md
+│       └── ...
+```
+
+## Writeup Philosophy
+
+Each writeup focuses on:
+
+* Understanding the problem before solving it
+* Documenting the reasoning process
+* Highlighting failed attempts when relevant
+* Connecting challenge concepts to real-world security work
+* Maintaining professional documentation standards
+
+## Current Progress
+
+### OverTheWire
+
+* Bandit Level 0 → 21 Completed
+
+More platforms and challenge categories will be added over time.
