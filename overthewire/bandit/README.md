@@ -195,9 +195,6 @@ Bandit currently concludes at Level 33. The official OverTheWire platform notes 
 * Levels Completed: 33/33
 * Final Level Reached: Bandit33
 
-### Completion Proof
-
-![Bandit completion](assets/bandit-completion.png)
 
 ---
 
