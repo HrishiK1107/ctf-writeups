@@ -9,9 +9,9 @@ OverTheWire provides hands-on exercises focused on Linux fundamentals, networkin
 | Wargame   | Status            |
 | --------- | ----------------- |
 | Bandit    | Completed (33/33) |
-| Leviathan | Completed (7/7)   |
+| Leviathan | Completed (8/8)   |
+| Krypton   | Completed (7/7)   |
 | Natas     | Planned           |
-| Krypton   | Planned           |
 
 ---
 
@@ -67,6 +67,33 @@ The challenges closely resemble techniques encountered during Linux penetration 
 
 ---
 
+## Why Krypton?
+
+Krypton introduces classical cryptography and practical cryptanalysis.
+
+Instead of exploiting systems directly, participants must understand how encryption schemes operate and how weaknesses in their design can be leveraged to recover hidden information.
+
+Key concepts covered include:
+
+* Base64 Encoding and Decoding
+* Caesar Cipher
+* ROT13
+* Chosen Plaintext Attacks
+* Encryption Oracles
+* Monoalphabetic Substitution Ciphers
+* Frequency Analysis
+* Vigenère Cipher Cryptanalysis
+* Key Length Determination
+* Kasiski-style Analysis
+* Stream Cipher Analysis
+* Linear Feedback Shift Registers (LFSRs)
+* Known Plaintext Attacks
+* Weak Random Number Generation
+
+These concepts frequently appear in malware analysis, digital forensics, threat intelligence investigations, reverse engineering, and cryptographic security research.
+
+---
+
 ## Progress Summary
 
 ### Bandit
@@ -100,7 +127,7 @@ The challenges closely resemble techniques encountered during Linux penetration 
 ### Leviathan
 
 * Status: Completed
-* Levels Completed: 7/7
+* Levels Completed: 8/8
 * Documentation: Complete
 
 **Topics Covered**
@@ -117,6 +144,28 @@ The challenges closely resemble techniques encountered during Linux penetration 
 * Local Authentication Brute Forcing
 * Linux Privilege Escalation Methodology
 
+### Krypton
+
+* Status: Completed
+* Levels Completed: 7/7
+* Documentation: Complete
+
+**Topics Covered**
+
+* Base64 Decoding
+* Caesar Cipher Analysis
+* ROT13
+* Chosen Plaintext Attacks
+* Encryption Oracle Abuse
+* Frequency Analysis
+* Monoalphabetic Substitution Ciphers
+* Vigenère Cipher Cryptanalysis
+* Key Length Discovery
+* Stream Cipher Weaknesses
+* LFSR Analysis
+* Known Plaintext Attacks
+* Keystream Recovery
+
 ---
 
 ## Repository Structure
@@ -128,7 +177,11 @@ overthewire/
 │   ├── README.md
 │   └── level-writeups...
 │
-└── leviathan/
+├── leviathan/
+│   ├── README.md
+│   └── level-writeups...
+│
+└── krypton/
     ├── README.md
     └── level-writeups...
 ```
@@ -140,8 +193,8 @@ overthewire/
 | Wargame   | Progress |
 | --------- | -------- |
 | Bandit    | 33 / 33  |
-| Leviathan | 7 / 7    |
+| Leviathan | 8 / 8    |
+| Krypton   | 7 / 7    |
 | Natas     | Planned  |
-| Krypton   | Planned  |
 
 Additional OverTheWire wargames will be documented as they are completed.
