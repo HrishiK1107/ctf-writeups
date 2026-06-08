@@ -4,8 +4,8 @@ Krypton is OverTheWire's cryptography-focused wargame designed to teach classica
 
 Unlike Bandit, which focuses on Linux fundamentals, or Leviathan, which focuses on binary exploitation, Krypton requires understanding how encryption works and how it can be broken through mathematical analysis, statistical techniques, and chosen-plaintext attacks.
 
-Host: `krypton.labs.overthewire.org`
-Port: `2231`
+**Host:** `krypton.labs.overthewire.org`
+**Port:** `2231`
 
 ---
 
@@ -48,16 +48,16 @@ Throughout Krypton, the following cryptographic concepts were explored:
 
 These challenges required:
 
-* Cipher identification
-* Cryptographic reasoning
-* Statistical analysis of ciphertext
-* Frequency analysis
-* Pattern recognition
-* Python scripting
-* Linux command-line tooling
-* Use of CyberChef and online cryptanalysis tools
-* Chosen-plaintext attack techniques
-* Stream cipher analysis
+* Cipher Identification
+* Cryptographic Reasoning
+* Statistical Analysis of Ciphertext
+* Frequency Analysis
+* Pattern Recognition
+* Python Scripting
+* Linux Command-Line Tooling
+* Use of CyberChef and Online Cryptanalysis Tools
+* Chosen-Plaintext Attack Techniques
+* Stream Cipher Analysis
 
 ---
 
@@ -67,12 +67,12 @@ Although the ciphers used in Krypton are mostly historical, the cryptanalysis te
 
 The same analytical thinking appears in:
 
-* Malware analysis (encoded strings, obfuscated payloads)
-* Threat intelligence investigations
-* Digital forensics
-* Reverse engineering
-* Legacy application security assessments
-* Cryptographic vulnerability research
+* Malware Analysis (encoded strings, obfuscated payloads)
+* Threat Intelligence Investigations
+* Digital Forensics
+* Reverse Engineering
+* Legacy Application Security Assessments
+* Cryptographic Vulnerability Research
 
 Many modern attacks succeed not because encryption exists, but because it is implemented incorrectly. Krypton demonstrates how weak key management, predictable randomness, key reuse, and statistical leakage can completely undermine encryption.
 
@@ -93,15 +93,13 @@ krypton/
 └── assets/
 ```
 
----
-
 ## Completion Status
 
-* Status: Completed
-* Levels Completed: 7/7
-* Final Level Reached: Krypton7
-* Focus Area: Classical Cryptography & Cryptanalysis
-* Platform: OverTheWire
+* **Status:** Completed
+* **Levels Completed:** 7/7
+* **Final Level Reached:** Krypton7
+* **Focus Area:** Classical Cryptography & Cryptanalysis
+* **Platform:** OverTheWire
 
 ---
 
