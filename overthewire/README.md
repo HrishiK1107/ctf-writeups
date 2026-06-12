@@ -2,7 +2,7 @@
 
 This repository contains writeups for challenges from the OverTheWire wargames platform.
 
-OverTheWire provides hands-on exercises focused on Linux fundamentals, networking, cryptography, file systems, permissions, authentication, privilege escalation, binary analysis, and security concepts. These challenges are designed to build practical problem-solving skills that transfer directly into real-world cybersecurity work.
+OverTheWire provides hands-on exercises focused on Linux fundamentals, networking, cryptography, web application security, file systems, permissions, authentication, privilege escalation, binary analysis, and security concepts. These challenges are designed to build practical problem-solving skills that transfer directly into real-world cybersecurity work.
 
 ## Wargames
 
@@ -11,7 +11,7 @@ OverTheWire provides hands-on exercises focused on Linux fundamentals, networkin
 | Bandit    | Completed (33/33) |
 | Leviathan | Completed (8/8)   |
 | Krypton   | Completed (7/7)   |
-| Natas     | Planned           |
+| Natas     | Completed (34/34) |
 
 ---
 
@@ -94,6 +94,42 @@ These concepts frequently appear in malware analysis, digital forensics, threat 
 
 ---
 
+## Why Natas?
+
+Natas focuses entirely on web application security.
+
+Each level presents a live web application that must be analyzed through HTTP requests, cookies, sessions, source code review, application behavior, and exploit development.
+
+Key concepts covered include:
+
+* Information Disclosure
+* Directory Traversal
+* Command Injection
+* SQL Injection
+* Blind SQL Injection
+* File Upload Vulnerabilities
+* Session Hijacking
+* Session Prediction
+* Session Poisoning
+* Authentication Bypass
+* Authorization Bypass
+* Cookie Manipulation
+* XOR Cryptography Weaknesses
+* ECB Cut-and-Paste Attacks
+* PHP Type Juggling
+* PHP Object Injection
+* Local File Inclusion (LFI)
+* Log Poisoning
+* Argument Injection
+* Perl Injection
+* MD5 Collision Abuse
+* PHP Phar Deserialization
+* Remote Code Execution
+
+The challenges closely mirror vulnerability classes encountered during web application penetration tests, bug bounty programs, VAPT engagements, and application security reviews.
+
+---
+
 ## Progress Summary
 
 ### Bandit
@@ -102,47 +138,11 @@ These concepts frequently appear in malware analysis, digital forensics, threat 
 * Levels Completed: 33/33
 * Documentation: Complete
 
-**Topics Covered**
-
-* Linux Fundamentals
-* File Enumeration
-* Permissions and Access Control
-* Text Processing
-* Data Encoding and Decoding
-* Binary Analysis
-* Compression Formats
-* SSH Authentication
-* SSL/TLS Communication
-* Service Enumeration
-* Local Network Services
-* Cron Job Analysis
-* Shell Scripting
-* Brute Force Automation
-* SetUID Privilege Escalation
-* Restricted Shell Escapes
-* Git Commit History Analysis
-* Git Branch Enumeration
-* Git Tag Enumeration
-
 ### Leviathan
 
 * Status: Completed
 * Levels Completed: 8/8
 * Documentation: Complete
-
-**Topics Covered**
-
-* Hidden File and Directory Enumeration
-* Runtime Binary Analysis
-* ltrace-Based Investigation
-* Hardcoded Credential Extraction
-* String Comparison Analysis
-* SUID Privilege Escalation
-* Filename Manipulation Attacks
-* Symbolic Link Attacks
-* Binary-to-ASCII Decoding
-* Local Authentication Brute Forcing
-* Linux Privilege Escalation Methodology
 
 ### Krypton
 
@@ -150,21 +150,28 @@ These concepts frequently appear in malware analysis, digital forensics, threat 
 * Levels Completed: 7/7
 * Documentation: Complete
 
+### Natas
+
+* Status: Completed
+* Levels Completed: 34/34
+* Documentation: Complete
+
 **Topics Covered**
 
-* Base64 Decoding
-* Caesar Cipher Analysis
-* ROT13
-* Chosen Plaintext Attacks
-* Encryption Oracle Abuse
-* Frequency Analysis
-* Monoalphabetic Substitution Ciphers
-* Vigenère Cipher Cryptanalysis
-* Key Length Discovery
-* Stream Cipher Weaknesses
-* LFSR Analysis
-* Known Plaintext Attacks
-* Keystream Recovery
+* Web Application Security
+* HTTP Request Analysis
+* Authentication Testing
+* Authorization Testing
+* Session Management
+* Command Injection
+* SQL Injection
+* Blind SQL Injection
+* File Upload Security
+* Cryptographic Weaknesses
+* Local File Inclusion
+* Object Injection
+* Deserialization Attacks
+* Remote Code Execution
 
 ---
 
@@ -181,7 +188,11 @@ overthewire/
 │   ├── README.md
 │   └── level-writeups...
 │
-└── krypton/
+├── krypton/
+│   ├── README.md
+│   └── level-writeups...
+│
+└── natas/
     ├── README.md
     └── level-writeups...
 ```
@@ -195,6 +206,31 @@ overthewire/
 | Bandit    | 33 / 33  |
 | Leviathan | 8 / 8    |
 | Krypton   | 7 / 7    |
-| Natas     | Planned  |
+| Natas     | 34 / 34  |
 
-Additional OverTheWire wargames will be documented as they are completed.
+---
+
+## Current Repository Statistics
+
+* Total Wargames Completed: 4
+* Total Levels Completed: 82
+* Documentation Status: Complete
+
+---
+
+## Key Takeaways
+
+Across all completed OverTheWire wargames, the primary lessons were:
+
+* Enumerate before exploiting
+* Understand how applications process user input
+* Never trust client-controlled data
+* Authentication and authorization are separate problems
+* Small implementation mistakes often create critical vulnerabilities
+* Cryptography is frequently broken through misuse rather than mathematics
+* Session management is a common attack surface
+* File handling functionality requires strict validation
+* Source code review dramatically accelerates vulnerability discovery
+* Automation is essential for efficient exploitation
+
+These concepts regularly appear in penetration testing engagements, red team operations, secure code reviews, malware analysis, incident response investigations, application security engineering, and offensive security research.

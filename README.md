@@ -1,6 +1,6 @@
 # CTF Writeups
 
-A curated collection of Capture The Flag (CTF) challenge writeups documenting my journey through offensive security, Linux internals, networking, cryptography, privilege escalation, Git internals, and security engineering concepts.
+A curated collection of Capture The Flag (CTF) challenge writeups documenting my journey through offensive security, Linux internals, networking, web application security, cryptography, privilege escalation, Git internals, and security engineering concepts.
 
 The goal of this repository is not to provide copy-paste solutions, but to document the methodology, reasoning process, and security concepts behind solving challenges while connecting them to real-world cybersecurity practices.
 
@@ -24,12 +24,12 @@ Alongside CTFs, I build security-focused projects including:
 
 ## Platforms
 
-| Platform     | Status                                 |
-| ------------ | -------------------------------------- |
-| OverTheWire  | Completed (Bandit, Leviathan, Krypton) |
-| picoCTF      | Planned                                |
-| TryHackMe    | Planned                                |
-| Hack The Box | Planned                                |
+| Platform     | Status                                        |
+| ------------ | --------------------------------------------- |
+| OverTheWire  | Completed (Bandit, Leviathan, Krypton, Natas) |
+| picoCTF      | Planned                                       |
+| TryHackMe    | Planned                                       |
+| Hack The Box | Planned                                       |
 
 ---
 
@@ -51,7 +51,12 @@ ctf-writeups/
 │   │   ├── level-writeups...
 │   │   └── assets/
 │   │
-│   └── krypton/
+│   ├── krypton/
+│   │   ├── README.md
+│   │   ├── level-writeups...
+│   │   └── assets/
+│   │
+│   └── natas/
 │       ├── README.md
 │       ├── level-writeups...
 │       └── assets/
@@ -150,6 +155,44 @@ Each writeup focuses on:
 
 ---
 
+#### Natas
+
+* Status: Completed
+* Levels Completed: 34/34
+
+**Concepts Covered**
+
+* Information Disclosure
+* Source Code Review
+* Directory Traversal
+* Cookie Manipulation
+* Session Hijacking
+* Session Prediction
+* Session Poisoning
+* Authentication Bypass
+* Authorization Bypass
+* Command Injection
+* Blind Command Injection
+* SQL Injection
+* Blind SQL Injection
+* Time-Based SQL Injection
+* File Upload Vulnerabilities
+* Magic Bytes Bypass
+* Local File Inclusion (LFI)
+* Log Poisoning
+* XOR Cryptographic Weaknesses
+* ECB Cut-and-Paste Attacks
+* PHP Type Juggling
+* PHP Loose Comparisons
+* PHP Object Injection
+* Argument Injection
+* Perl Injection
+* MD5 Collision Abuse
+* Phar Deserialization
+* Remote Code Execution
+
+---
+
 ## Skills Demonstrated
 
 Through these challenges, the repository demonstrates practical experience with:
@@ -157,15 +200,29 @@ Through these challenges, the repository demonstrates practical experience with:
 * Linux System Navigation
 * Command-Line Operations
 * Security Enumeration
+* Web Application Security Testing
+* Authentication and Authorization Testing
+* Session Management Analysis
 * Cryptography Fundamentals
 * Cryptanalysis Techniques
 * Binary Analysis
 * Privilege Escalation
-* Authentication Attacks
+* Injection Vulnerability Assessment
+* File Upload Security Testing
+* Exploit Development
 * Scripting and Automation
 * Problem Solving Methodology
 * Security Documentation
 * Technical Reporting
+
+---
+
+## Repository Statistics
+
+* Platforms Completed: 1
+* OverTheWire Wargames Completed: 4
+* Total Levels Completed: 82
+* Documentation Status: Complete
 
 ---
 
